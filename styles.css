@@ -1,0 +1,263 @@
+@font-face {
+    font-family:"Gilroy";
+    src: url(Fonts/Gilroy-Regular400.woff2);
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+}
+
+@font-face {
+    font-family:"Gilroy";
+    src: url(Fonts/Gilroy-Medium500.woff2);
+    font-weight:500;
+    font-style:normal;
+    font-display:swap
+}
+
+@font-face {
+    font-family:"Gilroy";
+    src: url(Fonts/Gilroy-Bold700.woff2);
+    font-weight:700;
+    font-style:normal;
+    font-display:swap
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.video-banner{
+    grid-column: 2;
+    height: 100vh;
+
+}
+
+.video-img-container {
+    position: relative;
+    bottom: -3%;
+    right: -5%;
+}
+
+.video-bannerimg{
+    position: static;
+    bottom: 100%;
+    box-shadow: 2px 2px 50px 5px;
+    width: 95%;
+}
+
+.videodescription{
+    object-fit: fill;
+    grid-column: 1;
+    margin: 2px;
+    padding: 0;
+    width: 100%;
+    height: inherit;
+}
+
+.videodescription p{
+    font-weight: 700;
+    color: white;
+    font-size: 1.75rem;
+    letter-spacing: 3px;
+
+}
+
+.description-text{
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    padding-right: 20%;
+}
+
+.mainpage-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 45% 45%;
+    font-family: Gilroy;
+    height: 400px;
+}
+
+.background-container {
+    display: absolute;
+    align-self: top;
+    background: linear-gradient(to top, #3a1458, #010113) no-repeat;
+    width: 100%;
+    height: 100dvh;
+}
+
+header {
+    background-color: rgba(2, 2, 22, 0.436);    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    position: relative;
+    top: 10%;
+}
+
+.navbar {
+    position: relative;
+    top: 9%;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.signup {
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: .65rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: #b535f6;
+    border: none;
+    cursor: pointer;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.signin {
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: .65rem;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    border: none;
+}
+
+
+.logo-img{
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    width: 165px;
+}
+
+.main-title {
+    color: white;
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.actor-container {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+    left: 5%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 10vh;
+    width: 80%;
+    top: 2%
+}
+
+.actor-container img{
+    width: 60%;
+}
+
+.actor1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.actor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actor3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actor-name1 {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.actor-name2 {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.actor-name3 {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.actor-character1 {
+    display: flex;
+    margin-top: 3px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.actor-character2 {
+    display: flex;
+    margin-top: 3px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.actor-character3 {
+    display: flex;
+    margin-top: 3px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bottomsignup {
+    display: flex;    
+    justify-content: center;
+
+}
+
+.signup2 {
+    position: relative;
+    scale: 120%;
+    z-index: 5;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: .65rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: #b535f6;
+    border: none;
+    cursor: pointer;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
